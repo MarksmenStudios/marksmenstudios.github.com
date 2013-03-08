@@ -63,6 +63,7 @@ body {
   font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  min-width: 1200px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -373,7 +374,10 @@ Full-Width Styles
   background: #213344;
 }
 
-
+#left_sidebar {
+  float: left;
+  width: 40px;
+}
 
 /*******************************************************************************
 Small Device Styles
